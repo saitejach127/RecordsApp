@@ -18,7 +18,7 @@ jobs:
           npm install
       - name: eject expo
         run: |
-          npx expo eject
+          npm install -g expo-cli && expo eject
       - name: Build Android Release
         run: |
           cd android && ./gradlew assembleRelease
