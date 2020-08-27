@@ -16,7 +16,7 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm install
-      -name: eject expo
+      - name: eject expo
         run: |
           npx expo eject
       - name: Build Android Release
