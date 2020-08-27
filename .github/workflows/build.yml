@@ -17,7 +17,7 @@ jobs:
           name: app-release.apk
           path: android/app/build/outputs/apk/release/
   build-ios:
-    runs-on: [self-hosted, macos]
+    runs-on: macos-latest
     steps: 
       - uses: actions/checkout@v2
       - name: Install npm dependencies
