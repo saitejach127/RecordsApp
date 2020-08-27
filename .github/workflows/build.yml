@@ -8,9 +8,6 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm install
-      - name: eject expo
-        run: |
-          sudo npm install -g expo-cli && expo eject
       - name: Build Android Release
         run: |
           cd android && ./gradlew assembleRelease

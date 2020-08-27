@@ -29,6 +29,9 @@
     "android": {
       "package": "com.records.Record",
       "versionCode": 1
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Records App",
+  "name": "Records"
 }
